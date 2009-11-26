@@ -1,0 +1,10 @@
+Mailman resends copy of all posts to the addresses from X-List-Cc field.
+
+Useful for sending carbon copies with List-* headers
+
+Usage:
+
+GLOBAL_PIPELINE.insert(GLOBAL_PIPELINE.index('CookHeaders')
+
+in mm_cfg.py
+
